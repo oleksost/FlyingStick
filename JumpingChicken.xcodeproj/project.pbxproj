@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8AEDAA6318B904DD0080A486 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AEDAA6218B904DD0080A486 /* Foundation.framework */; };
+		8AEDAA6518B904DD0080A486 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AEDAA6418B904DD0080A486 /* CoreGraphics.framework */; };
+		8AEDAA6718B904DD0080A486 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AEDAA6618B904DD0080A486 /* UIKit.framework */; };
+		8AEDAA6918B904DD0080A486 /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AEDAA6818B904DD0080A486 /* SpriteKit.framework */; };
+		8AEDAA6F18B904DD0080A486 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8AEDAA6D18B904DD0080A486 /* InfoPlist.strings */; };
+		8AEDAA7118B904DD0080A486 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AEDAA7018B904DD0080A486 /* main.m */; };
+		8AEDAA7518B904DD0080A486 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AEDAA7418B904DD0080A486 /* AppDelegate.m */; };
+		8AEDAA7818B904DD0080A486 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8AEDAA7618B904DD0080A486 /* Main_iPhone.storyboard */; };
+		8AEDAA7B18B904DD0080A486 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8AEDAA7918B904DD0080A486 /* Main_iPad.storyboard */; };
+		8AEDAA7E18B904DD0080A486 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AEDAA7D18B904DD0080A486 /* ViewController.m */; };
+		8AEDAA8118B904DD0080A486 /* MyScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AEDAA8018B904DD0080A486 /* MyScene.m */; };
+		8AEDAA8318B904DD0080A486 /* Spaceship.png in Resources */ = {isa = PBXBuildFile; fileRef = 8AEDAA8218B904DD0080A486 /* Spaceship.png */; };
+		8AEDAA8518B904DD0080A486 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8AEDAA8418B904DD0080A486 /* Images.xcassets */; };
+		8AEDAA8C18B904DD0080A486 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AEDAA8B18B904DD0080A486 /* XCTest.framework */; };
+		8AEDAA8D18B904DD0080A486 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AEDAA6218B904DD0080A486 /* Foundation.framework */; };
+		8AEDAA8E18B904DD0080A486 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AEDAA6618B904DD0080A486 /* UIKit.framework */; };
+		8AEDAA9618B904DD0080A486 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8AEDAA9418B904DD0080A486 /* InfoPlist.strings */; };
+		8AEDAA9818B904DD0080A486 /* JumpingChickenTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AEDAA9718B904DD0080A486 /* JumpingChickenTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8AEDAA8F18B904DD0080A486 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8AEDAA5718B904DD0080A486 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8AEDAA5E18B904DD0080A486;
+			remoteInfo = JumpingChicken;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8AEDAA5F18B904DD0080A486 /* JumpingChicken.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JumpingChicken.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8AEDAA6218B904DD0080A486 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8AEDAA6418B904DD0080A486 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8AEDAA6618B904DD0080A486 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		8AEDAA6818B904DD0080A486 /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
+		8AEDAA6C18B904DD0080A486 /* JumpingChicken-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "JumpingChicken-Info.plist"; sourceTree = "<group>"; };
+		8AEDAA6E18B904DD0080A486 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8AEDAA7018B904DD0080A486 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8AEDAA7218B904DD0080A486 /* JumpingChicken-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "JumpingChicken-Prefix.pch"; sourceTree = "<group>"; };
+		8AEDAA7318B904DD0080A486 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8AEDAA7418B904DD0080A486 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8AEDAA7718B904DD0080A486 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		8AEDAA7A18B904DD0080A486 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		8AEDAA7C18B904DD0080A486 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8AEDAA7D18B904DD0080A486 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8AEDAA7F18B904DD0080A486 /* MyScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyScene.h; sourceTree = "<group>"; };
+		8AEDAA8018B904DD0080A486 /* MyScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyScene.m; sourceTree = "<group>"; };
+		8AEDAA8218B904DD0080A486 /* Spaceship.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Spaceship.png; sourceTree = "<group>"; };
+		8AEDAA8418B904DD0080A486 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		8AEDAA8A18B904DD0080A486 /* JumpingChickenTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JumpingChickenTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8AEDAA8B18B904DD0080A486 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		8AEDAA9318B904DD0080A486 /* JumpingChickenTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "JumpingChickenTests-Info.plist"; sourceTree = "<group>"; };
+		8AEDAA9518B904DD0080A486 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8AEDAA9718B904DD0080A486 /* JumpingChickenTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JumpingChickenTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8AEDAA5C18B904DD0080A486 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AEDAA6518B904DD0080A486 /* CoreGraphics.framework in Frameworks */,
+				8AEDAA6718B904DD0080A486 /* UIKit.framework in Frameworks */,
+				8AEDAA6918B904DD0080A486 /* SpriteKit.framework in Frameworks */,
+				8AEDAA6318B904DD0080A486 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8AEDAA8718B904DD0080A486 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AEDAA8C18B904DD0080A486 /* XCTest.framework in Frameworks */,
+				8AEDAA8E18B904DD0080A486 /* UIKit.framework in Frameworks */,
+				8AEDAA8D18B904DD0080A486 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8AEDAA5618B904DD0080A486 = {
+			isa = PBXGroup;
+			children = (
+				8AEDAA6A18B904DD0080A486 /* JumpingChicken */,
+				8AEDAA9118B904DD0080A486 /* JumpingChickenTests */,
+				8AEDAA6118B904DD0080A486 /* Frameworks */,
+				8AEDAA6018B904DD0080A486 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8AEDAA6018B904DD0080A486 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8AEDAA5F18B904DD0080A486 /* JumpingChicken.app */,
+				8AEDAA8A18B904DD0080A486 /* JumpingChickenTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8AEDAA6118B904DD0080A486 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8AEDAA6218B904DD0080A486 /* Foundation.framework */,
+				8AEDAA6418B904DD0080A486 /* CoreGraphics.framework */,
+				8AEDAA6618B904DD0080A486 /* UIKit.framework */,
+				8AEDAA6818B904DD0080A486 /* SpriteKit.framework */,
+				8AEDAA8B18B904DD0080A486 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8AEDAA6A18B904DD0080A486 /* JumpingChicken */ = {
+			isa = PBXGroup;
+			children = (
+				8AEDAA7318B904DD0080A486 /* AppDelegate.h */,
+				8AEDAA7418B904DD0080A486 /* AppDelegate.m */,
+				8AEDAA7618B904DD0080A486 /* Main_iPhone.storyboard */,
+				8AEDAA7918B904DD0080A486 /* Main_iPad.storyboard */,
+				8AEDAA7C18B904DD0080A486 /* ViewController.h */,
+				8AEDAA7D18B904DD0080A486 /* ViewController.m */,
+				8AEDAA7F18B904DD0080A486 /* MyScene.h */,
+				8AEDAA8018B904DD0080A486 /* MyScene.m */,
+				8AEDAA8218B904DD0080A486 /* Spaceship.png */,
+				8AEDAA8418B904DD0080A486 /* Images.xcassets */,
+				8AEDAA6B18B904DD0080A486 /* Supporting Files */,
+			);
+			path = JumpingChicken;
+			sourceTree = "<group>";
+		};
+		8AEDAA6B18B904DD0080A486 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8AEDAA6C18B904DD0080A486 /* JumpingChicken-Info.plist */,
+				8AEDAA6D18B904DD0080A486 /* InfoPlist.strings */,
+				8AEDAA7018B904DD0080A486 /* main.m */,
+				8AEDAA7218B904DD0080A486 /* JumpingChicken-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8AEDAA9118B904DD0080A486 /* JumpingChickenTests */ = {
+			isa = PBXGroup;
+			children = (
+				8AEDAA9718B904DD0080A486 /* JumpingChickenTests.m */,
+				8AEDAA9218B904DD0080A486 /* Supporting Files */,
+			);
+			path = JumpingChickenTests;
+			sourceTree = "<group>";
+		};
+		8AEDAA9218B904DD0080A486 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8AEDAA9318B904DD0080A486 /* JumpingChickenTests-Info.plist */,
+				8AEDAA9418B904DD0080A486 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8AEDAA5E18B904DD0080A486 /* JumpingChicken */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8AEDAA9B18B904DD0080A486 /* Build configuration list for PBXNativeTarget "JumpingChicken" */;
+			buildPhases = (
+				8AEDAA5B18B904DD0080A486 /* Sources */,
+				8AEDAA5C18B904DD0080A486 /* Frameworks */,
+				8AEDAA5D18B904DD0080A486 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JumpingChicken;
+			productName = JumpingChicken;
+			productReference = 8AEDAA5F18B904DD0080A486 /* JumpingChicken.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8AEDAA8918B904DD0080A486 /* JumpingChickenTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8AEDAA9E18B904DD0080A486 /* Build configuration list for PBXNativeTarget "JumpingChickenTests" */;
+			buildPhases = (
+				8AEDAA8618B904DD0080A486 /* Sources */,
+				8AEDAA8718B904DD0080A486 /* Frameworks */,
+				8AEDAA8818B904DD0080A486 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8AEDAA9018B904DD0080A486 /* PBXTargetDependency */,
+			);
+			name = JumpingChickenTests;
+			productName = JumpingChickenTests;
+			productReference = 8AEDAA8A18B904DD0080A486 /* JumpingChickenTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8AEDAA5718B904DD0080A486 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Alexey Otapenko";
+				TargetAttributes = {
+					8AEDAA8918B904DD0080A486 = {
+						TestTargetID = 8AEDAA5E18B904DD0080A486;
+					};
+				};
+			};
+			buildConfigurationList = 8AEDAA5A18B904DD0080A486 /* Build configuration list for PBXProject "JumpingChicken" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8AEDAA5618B904DD0080A486;
+			productRefGroup = 8AEDAA6018B904DD0080A486 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8AEDAA5E18B904DD0080A486 /* JumpingChicken */,
+				8AEDAA8918B904DD0080A486 /* JumpingChickenTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8AEDAA5D18B904DD0080A486 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AEDAA8318B904DD0080A486 /* Spaceship.png in Resources */,
+				8AEDAA8518B904DD0080A486 /* Images.xcassets in Resources */,
+				8AEDAA7B18B904DD0080A486 /* Main_iPad.storyboard in Resources */,
+				8AEDAA7818B904DD0080A486 /* Main_iPhone.storyboard in Resources */,
+				8AEDAA6F18B904DD0080A486 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8AEDAA8818B904DD0080A486 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AEDAA9618B904DD0080A486 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8AEDAA5B18B904DD0080A486 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AEDAA8118B904DD0080A486 /* MyScene.m in Sources */,
+				8AEDAA7E18B904DD0080A486 /* ViewController.m in Sources */,
+				8AEDAA7518B904DD0080A486 /* AppDelegate.m in Sources */,
+				8AEDAA7118B904DD0080A486 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8AEDAA8618B904DD0080A486 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AEDAA9818B904DD0080A486 /* JumpingChickenTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8AEDAA9018B904DD0080A486 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8AEDAA5E18B904DD0080A486 /* JumpingChicken */;
+			targetProxy = 8AEDAA8F18B904DD0080A486 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8AEDAA6D18B904DD0080A486 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8AEDAA6E18B904DD0080A486 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		8AEDAA7618B904DD0080A486 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8AEDAA7718B904DD0080A486 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		8AEDAA7918B904DD0080A486 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8AEDAA7A18B904DD0080A486 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		8AEDAA9418B904DD0080A486 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8AEDAA9518B904DD0080A486 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8AEDAA9918B904DD0080A486 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8AEDAA9A18B904DD0080A486 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8AEDAA9C18B904DD0080A486 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JumpingChicken/JumpingChicken-Prefix.pch";
+				INFOPLIST_FILE = "JumpingChicken/JumpingChicken-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		8AEDAA9D18B904DD0080A486 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JumpingChicken/JumpingChicken-Prefix.pch";
+				INFOPLIST_FILE = "JumpingChicken/JumpingChicken-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		8AEDAA9F18B904DD0080A486 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/JumpingChicken.app/JumpingChicken";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JumpingChicken/JumpingChicken-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "JumpingChickenTests/JumpingChickenTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		8AEDAAA018B904DD0080A486 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/JumpingChicken.app/JumpingChicken";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JumpingChicken/JumpingChicken-Prefix.pch";
+				INFOPLIST_FILE = "JumpingChickenTests/JumpingChickenTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8AEDAA5A18B904DD0080A486 /* Build configuration list for PBXProject "JumpingChicken" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8AEDAA9918B904DD0080A486 /* Debug */,
+				8AEDAA9A18B904DD0080A486 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8AEDAA9B18B904DD0080A486 /* Build configuration list for PBXNativeTarget "JumpingChicken" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8AEDAA9C18B904DD0080A486 /* Debug */,
+				8AEDAA9D18B904DD0080A486 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8AEDAA9E18B904DD0080A486 /* Build configuration list for PBXNativeTarget "JumpingChickenTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8AEDAA9F18B904DD0080A486 /* Debug */,
+				8AEDAAA018B904DD0080A486 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8AEDAA5718B904DD0080A486 /* Project object */;
+}
