@@ -18,13 +18,18 @@
 		8AEDAA7B18B904DD0080A486 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8AEDAA7918B904DD0080A486 /* Main_iPad.storyboard */; };
 		8AEDAA7E18B904DD0080A486 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AEDAA7D18B904DD0080A486 /* ViewController.m */; };
 		8AEDAA8118B904DD0080A486 /* MyScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AEDAA8018B904DD0080A486 /* MyScene.m */; };
-		8AEDAA8318B904DD0080A486 /* Spaceship.png in Resources */ = {isa = PBXBuildFile; fileRef = 8AEDAA8218B904DD0080A486 /* Spaceship.png */; };
 		8AEDAA8518B904DD0080A486 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8AEDAA8418B904DD0080A486 /* Images.xcassets */; };
 		8AEDAA8C18B904DD0080A486 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AEDAA8B18B904DD0080A486 /* XCTest.framework */; };
 		8AEDAA8D18B904DD0080A486 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AEDAA6218B904DD0080A486 /* Foundation.framework */; };
 		8AEDAA8E18B904DD0080A486 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AEDAA6618B904DD0080A486 /* UIKit.framework */; };
 		8AEDAA9618B904DD0080A486 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8AEDAA9418B904DD0080A486 /* InfoPlist.strings */; };
 		8AEDAA9818B904DD0080A486 /* JumpingChickenTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AEDAA9718B904DD0080A486 /* JumpingChickenTests.m */; };
+		8AEDAAA218BA89C90080A486 /* Bird1.png in Resources */ = {isa = PBXBuildFile; fileRef = 8AEDAAA118BA89C90080A486 /* Bird1.png */; };
+		8AEDAAA418BA8FB40080A486 /* Bird2.png in Resources */ = {isa = PBXBuildFile; fileRef = 8AEDAAA318BA8FB40080A486 /* Bird2.png */; };
+		8AEDAAA618BB31860080A486 /* Tree1.png in Resources */ = {isa = PBXBuildFile; fileRef = 8AEDAAA518BB31860080A486 /* Tree1.png */; };
+		8AEDAAA818BB318D0080A486 /* Tree2.png in Resources */ = {isa = PBXBuildFile; fileRef = 8AEDAAA718BB318D0080A486 /* Tree2.png */; };
+		8AEDAAAA18BE3E1A0080A486 /* h.png in Resources */ = {isa = PBXBuildFile; fileRef = 8AEDAAA918BE3E1A0080A486 /* h.png */; };
+		8AEDAAAC18BF995C0080A486 /* Boden.png in Resources */ = {isa = PBXBuildFile; fileRef = 8AEDAAAB18BF995C0080A486 /* Boden.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,13 +60,18 @@
 		8AEDAA7D18B904DD0080A486 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		8AEDAA7F18B904DD0080A486 /* MyScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyScene.h; sourceTree = "<group>"; };
 		8AEDAA8018B904DD0080A486 /* MyScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyScene.m; sourceTree = "<group>"; };
-		8AEDAA8218B904DD0080A486 /* Spaceship.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Spaceship.png; sourceTree = "<group>"; };
 		8AEDAA8418B904DD0080A486 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		8AEDAA8A18B904DD0080A486 /* JumpingChickenTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JumpingChickenTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8AEDAA8B18B904DD0080A486 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		8AEDAA9318B904DD0080A486 /* JumpingChickenTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "JumpingChickenTests-Info.plist"; sourceTree = "<group>"; };
 		8AEDAA9518B904DD0080A486 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		8AEDAA9718B904DD0080A486 /* JumpingChickenTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JumpingChickenTests.m; sourceTree = "<group>"; };
+		8AEDAAA118BA89C90080A486 /* Bird1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Bird1.png; path = ../../../../Pictures/Bird1.png; sourceTree = "<group>"; };
+		8AEDAAA318BA8FB40080A486 /* Bird2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Bird2.png; path = ../../../../Pictures/Bird2.png; sourceTree = "<group>"; };
+		8AEDAAA518BB31860080A486 /* Tree1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Tree1.png; path = ../../../../Pictures/Tree1.png; sourceTree = "<group>"; };
+		8AEDAAA718BB318D0080A486 /* Tree2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Tree2.png; path = ../../../../Pictures/Tree2.png; sourceTree = "<group>"; };
+		8AEDAAA918BE3E1A0080A486 /* h.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = h.png; path = ../../../../Pictures/h.png; sourceTree = "<group>"; };
+		8AEDAAAB18BF995C0080A486 /* Boden.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Boden.png; path = ../../../../Pictures/Boden.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,7 +141,12 @@
 				8AEDAA7D18B904DD0080A486 /* ViewController.m */,
 				8AEDAA7F18B904DD0080A486 /* MyScene.h */,
 				8AEDAA8018B904DD0080A486 /* MyScene.m */,
-				8AEDAA8218B904DD0080A486 /* Spaceship.png */,
+				8AEDAAA118BA89C90080A486 /* Bird1.png */,
+				8AEDAAAB18BF995C0080A486 /* Boden.png */,
+				8AEDAAA318BA8FB40080A486 /* Bird2.png */,
+				8AEDAAA518BB31860080A486 /* Tree1.png */,
+				8AEDAAA718BB318D0080A486 /* Tree2.png */,
+				8AEDAAA918BE3E1A0080A486 /* h.png */,
 				8AEDAA8418B904DD0080A486 /* Images.xcassets */,
 				8AEDAA6B18B904DD0080A486 /* Supporting Files */,
 			);
@@ -243,11 +258,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8AEDAA8318B904DD0080A486 /* Spaceship.png in Resources */,
+				8AEDAAAC18BF995C0080A486 /* Boden.png in Resources */,
 				8AEDAA8518B904DD0080A486 /* Images.xcassets in Resources */,
+				8AEDAAA418BA8FB40080A486 /* Bird2.png in Resources */,
 				8AEDAA7B18B904DD0080A486 /* Main_iPad.storyboard in Resources */,
+				8AEDAAA618BB31860080A486 /* Tree1.png in Resources */,
 				8AEDAA7818B904DD0080A486 /* Main_iPhone.storyboard in Resources */,
 				8AEDAA6F18B904DD0080A486 /* InfoPlist.strings in Resources */,
+				8AEDAAAA18BE3E1A0080A486 /* h.png in Resources */,
+				8AEDAAA818BB318D0080A486 /* Tree2.png in Resources */,
+				8AEDAAA218BA89C90080A486 /* Bird1.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

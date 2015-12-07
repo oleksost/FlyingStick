@@ -16,16 +16,26 @@
     [super viewDidLoad];
 
     // Configure the view.
-    SKView * skView = (SKView *)self.view;
+       // Present the scene.
+    }
+-(void)viewWillLayoutSubviews
+{
+    [super viewWillLayoutSubviews];
+    
+    // Configure the view.
+    //SKView * skView = (SKView *)self.view;
+    SKView *skView=[[SKView alloc]initWithFrame:self.view.frame];
     skView.showsFPS = YES;
     skView.showsNodeCount = YES;
-    
+    [self.view addSubview:skView];
     // Create and configure the scene.
     SKScene * scene = [MyScene sceneWithSize:skView.bounds.size];
     scene.scaleMode = SKSceneScaleModeAspectFill;
     
     // Present the scene.
     [skView presentScene:scene];
+
+    
 }
 
 - (BOOL)shouldAutorotate
